@@ -8,7 +8,7 @@ import time
 import os
 
 # --- 1. CONFIGURATION ---
-GEMINI_API_KEY = "AIzaSyCS6DtnOXx8mZNzZnNhKpBoNYZYvlKkcIY"
+GEMINI_API_KEY = "GEMINI_API_KEY"
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel('gemini-1.5-flash')
 
